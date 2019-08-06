@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--邮件发送端配置-->
+    <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="username" value="itcast_server@sina.com"/>
+        <property name="password" value="itcast_server"/>
+        <property name="protocol" value="smtp"/>
+        <property name="port" value="25"/>
+        <property name="host" value="smtp.sina.com"/>
+        <property name="javaMailProperties">
+            <props>
+                <!--邮箱认证-->
+                <prop key="mail.smtp.auth">true</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean class="com.itheima.util.MailUtils"/>
+
+</beans>

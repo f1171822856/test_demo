@@ -1,0 +1,10 @@
+com\itheima\service\cargo\ShippingService.class
+com\itheima\service\cargo\ContractProductService.class
+com\itheima\service\cargo\FactoryService.class
+com\itheima\service\cargo\ExportService.class
+com\itheima\service\cargo\ExtCproductService.class
+com\itheima\service\cargo\FinanceService.class
+com\itheima\service\cargo\InvoiceService.class
+com\itheima\service\cargo\PackingService.class
+com\itheima\service\cargo\ExportProductService.class
+com\itheima\service\cargo\ContractService.class

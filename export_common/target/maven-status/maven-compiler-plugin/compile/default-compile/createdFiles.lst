@@ -1,0 +1,4 @@
+com\itheima\util\HttpUtils.class
+com\itheima\util\BeanMapUtils.class
+com\itheima\util\MailUtils.class
+com\itheima\util\FileUploadUtils.class
